@@ -11,7 +11,7 @@ end
 #
 group :development do
   gem "guard-rspec", require: false
-  gem "guard-bundler", "~> 2.0.0", require: false
+  gem "guard-bundler", require: false
   gem "yard", require: false
   gem "redcarpet", require: false
   gem "guard-rubocop", require: false
