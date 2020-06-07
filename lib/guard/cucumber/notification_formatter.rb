@@ -146,7 +146,7 @@ module Guard
       end
 
       def dump_count(count, what, state = nil)
-        [count, state, "#{what}#{count == 1 ? '' : 's'}"].compact.join(' ')
+        [count, state, "#{what}#{count == 1 ? '' : 's'}"].compact.join(" ")
       end
 
       def status_to_message(status)
